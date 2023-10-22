@@ -30,9 +30,10 @@ function App() {
       <br />
 
       <button
-      onClick={remobeValue} >Remove value {counter} </button>
+      onClick={remobeValue} >Remove value  </button>
 
-    </>
+      <p>footer: {counter} </p>
+      </>
   )
 }
 
